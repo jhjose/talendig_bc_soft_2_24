@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+        url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+        url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+body {
+    letter-spacing: 1px;
+    margin: 0;
+    width: 100%;
+}
+a {
+    color: #249895;
+}
+.text-brand {
+    color: #249895;
+}
+.text-primary {
+    color: #249895;
+}
+.text-secondary {
+    color: #249895;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+h3, h4 {
+    text-transform: lowercase;
+}
+h5 {
+    text-transform: lowercase; /* capitalize */
+}
+
+.d-flex {
+    display: flex;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-left {
+    justify-content: left;
+}
+.justify-content-right {
+    justify-content: right;
+}
+.justify-content-around {
+    justify-content: space-around;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.p-1 {
+    padding: 5px; /* INSIDE SPACE */
+}
+.p-2 {
+    padding: 10px; 
+}
+.pl-1 {
+    padding-left: 5px;
+}
+.pr-1 {
+    padding-right: 5px;
+}
+.pl-2 {
+    padding-left: 10px;
+}
+.pr-2 {
+    padding-right: 10px;
+}
+.m-1 {
+    margin: 5px; /* OUTSIDE SPACE */
+}
+.m-2 {
+    margin: 10px;
+}
+
+.item-flex {
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+}
