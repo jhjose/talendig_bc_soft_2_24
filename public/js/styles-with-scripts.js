@@ -2,6 +2,9 @@
 //alert('Working with alert function.')
 
 let title = document.getElementById('title');
+
+let title = 'Saturno';
+
 title.innerHTML = 'New title';
 
 title.style.border = '2px solid gray';
