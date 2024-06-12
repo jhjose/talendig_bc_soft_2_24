@@ -56,3 +56,5 @@ if(confirm('Desea continuar?')){
 }else{
     alert('Nos vemos luego');
 }
+
+let result = (num > 5) ? num * 2 : num * 3;
